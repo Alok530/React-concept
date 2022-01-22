@@ -1,0 +1,14 @@
+1. for using react router in react first we have to downlode (npm i react-router-dom)
+2. then we have to import {BrowserRouter} from "react-router-dom" in index.js file 
+3. then we have to write all components inside {BrowserRouter} in which we want to use react-router in our case only App.js file is component in which we will be using react-router
+   in index.js file 
+   <BrowserRouter>
+       <App/>
+    <BrowserRouter/>   
+
+4. then we have to import both {Route,Switch} from "react-router-dom" on the particular page on which we want to use router in our case it is App.js file
+    <Switch>
+        <Route exact path="/" component={Challenge8}/>
+        <Route exact path="/f3" component={Form3}/>        
+        <Route exact path="/cc" component={Colorchange}/>
+    </Switch>

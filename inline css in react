@@ -1,0 +1,1 @@
+<h1 style={{fontfamily: "'Poppins', sans-serif",color:"red",textAlign:"center",fontWeight:'900',fontSize:'55px'}}>Hellow, My Name is {temp}</h1>          

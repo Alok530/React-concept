@@ -1,0 +1,20 @@
+// Note:- First letter of a components page name must be start with CAPITAL LETTER 
+
+// Import and Exports 
+Exaples:- 
+function add(a,b){
+    return (a+b);
+}
+function sub(a,b){
+    return (a-b);
+}
+function mul(a,b){
+    return (a*b)
+}
+function division(a,b) {
+    let div = a/b;
+    div = div.toFixed(2);  // to fixed digits after decimal 
+    return div;
+}
+
+export {add,sub,mul,division};  // when more than one elements to be exports 

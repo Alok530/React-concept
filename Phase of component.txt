@@ -1,0 +1,24 @@
+Note:- all these method are use only in a CLASS BASED component not in function based component
+
+Phase of component
+1. Mounting:- the process of creating an element and inserting it into a DOM tree.(jb hm sare componets ko machine se wesite me send krte hai)
+2. Updating:- the process of changing state or props of component and Update changes to nodes already in the DOM
+3. Error Handling :- it use when there is Error during rendring in lifecycle method or in the constructor of any child component
+4. Unmounting :- the process of removing components from the DOM
+
+-->>> Mounting :- several phase in Mounting run in sequence
+1. constructor() :- sbse pahle yhi call hota hai. When implementing the constructor use super(props) before any other statement
+                 :- it is mostly use for initialise state 
+                 :- constructor(props){
+                     super(props);
+                     this.state={
+                         name: 'this.props.name',
+                         roll: 5                
+                     }
+                 }
+2. static getDerivedStateFromProps()
+3. render() :- 
+4. componentDidMount() :- this method is invoked immedeiatly after a component is mounted(inserted into the tree),after the render() method has taken place
+                       :- this method is executed onse in a lifecycle of a component and after the first render
+                       :- it will initialise the DOM nodes should go here
+                       NOTE:- the API calls should be made in this method ALWAYS 

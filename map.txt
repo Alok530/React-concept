@@ -1,0 +1,18 @@
+map is just like a loop
+sintex:- map(function())
+
+NOTE>-- A key is a special string attribute you need to include when creating a list of element by map method
+key give the element a stabel identity
+
+
+Example>>
+const name = ['alok','shalu','raja','ramu'];
+name.map((element)=>{
+    <h1>my name is {element}<h1/>
+})
+ 
+Output:- my name is alok
+   my name is shalu
+   my name is raja
+   my name is ramu
+   

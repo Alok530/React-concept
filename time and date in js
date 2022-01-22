@@ -1,0 +1,9 @@
+let today = new Date();
+// let date = today.getDate()+'/'+today.getMonth()+'/'+today.getFullYear();
+let date = today.toLocaleDateString();
+
+// let hour = today.getHours(); // => 9
+// let min = today.getMinutes(); // =>  30
+// let sec = today.getSeconds(); // => 51
+// let time = hour+':'+min+':'+sec;
+let time = today.toLocaleTimeString();

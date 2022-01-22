@@ -1,0 +1,9 @@
+var name = ["alok","raju","raman"]; // array hai 
+
+
+// object hai ye 
+var name{
+    student:"alok kumar rai",
+    class: "second year student",
+    college:"iiitk"
+}
